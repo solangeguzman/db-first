@@ -1,0 +1,12 @@
+name: Cars 
+
+Column                Type                       Attibutes                     Index
+Id                  BIGIND UNSINGNED         AUTO_INCREMENT,NOT NULL         PRIMARY KEY
+Modello             VARCHAR(100)             NOT NULL,UNIQUE                 Index
+Anno                YEAR                     NOT NULL                        
+Prezzo              BIGIND                   NULL
+Documentazione      TEXT                     NOT NULL
+Accert. Meccanici   TEXT                     NOT NULL
+Verifica km         VARCHAR(50)              NOT NULL
+Ultima revisione    VARCHAR (50)             NOT NULL
+trasferenza         VARCHAR(255)             NOT NULL
